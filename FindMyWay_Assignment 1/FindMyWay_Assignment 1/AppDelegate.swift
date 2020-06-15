@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  FindMyWay
+//  FindMyWay_Assignment 1
 //
-//  Created by vidya on 14/06/2020.
-//  Copyright © 2020 Valliveti Vidya. All rights reserved.
+//  Created by Vidya on 15/06/2020.
+//  Copyright © 2020 vidya. All rights reserved.
 //
 
 import UIKit

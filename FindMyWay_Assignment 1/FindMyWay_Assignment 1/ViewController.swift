@@ -1,10 +1,11 @@
 //
 //  ViewController.swift
-//  FindMyWay
+//  FindMyWay_Assignment 1
 //
-//  Created by Vidya on 14/06/2020.
-//  Copyright © 2020 Valliveti Vidya Jayakumar All rights reserved.
+//  Created by Vidya on 15/06/2020.
+//  Copyright © 2020 vidya. All rights reserved.
 //
+
 
 import UIKit
 import MapKit
@@ -190,19 +191,19 @@ class ViewController: UIViewController {
         if currentLoc == nil || destinationLoc == nil {
             clearPoly()
             userLocationUpdate()
-//            let alert : UIAlertView = UIAlertView(title: "No Destination!", message: "Long press to select a destination",       delegate: nil, cancelButtonTitle: "Okay")
-//            alert.show()
+            //            let alert : UIAlertView = UIAlertView(title: "No Destination!", message: "Long press to select a destination",       delegate: nil, cancelButtonTitle: "Okay")
+            //            alert.show()
             
             let alert = UIAlertController(title: "No Destination!", message: "Long press to select a destination", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Okay", style: .default, handler: { action in
-              switch action.style {
-              case .default:
-                print("default")
-              case .cancel:
-                print("cancel")
-              case .destructive:
-                print("destructive")
-              }
+                switch action.style {
+                case .default:
+                    print("default")
+                case .cancel:
+                    print("cancel")
+                case .destructive:
+                    print("destructive")
+                }
             }))
             self.present(alert, animated: true, completion: nil)
             

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j8N-BQ-fFR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W6</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Eoj-P2-cRN">
+            <objects>
+                <viewController id="j8N-BQ-fFR" customClass="ViewController" customModule="FindMyWay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cnx-E5-yD8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1ri-RF-pX6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXT-YZ-gt8">
+                                <rect key="frame" x="282" y="587" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.86267858740000003" green="0.86278253790000003" blue="0.86264330150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <size key="titleShadowOffset" width="50" height="50"/>
+                                <state key="normal" title="GO">
+                                    <color key="titleColor" red="0.01596907383" green="0.014431445899999999" blue="0.015810640609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonGetLocation:" destination="j8N-BQ-fFR" eventType="touchUpInside" id="kr0-02-aTh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZw-h4-fWf">
+                                <rect key="frame" x="16" y="587" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.86267858740000003" green="0.86278253790000003" blue="0.86264330150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Walk">
+                                    <color key="titleColor" red="0.012788392650000001" green="0.01596907383" blue="0.01279233921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.86267858740000003" green="0.86278253790000003" blue="0.86264330150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonWalking:" destination="j8N-BQ-fFR" eventType="touchUpInside" id="LJx-v0-sKO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXl-x7-chq">
+                                <rect key="frame" x="84" y="587" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.86267858740000003" green="0.86278253790000003" blue="0.86264330150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Any">
+                                    <color key="titleColor" red="0.012788392650000001" green="0.01596907383" blue="0.01279233921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonTransit:" destination="j8N-BQ-fFR" eventType="touchUpInside" id="tcW-bS-y02"/>
+                                    <action selector="ButtonWalking:" destination="j8N-BQ-fFR" eventType="touchUpInside" id="bRL-qN-IEZ"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="AY5-cJ-dVS">
+                                <rect key="frame" x="265" y="525" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nu0-eb-mwf">
+                                <rect key="frame" x="296" y="492" width="45" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.99197608230000001" green="0.99591785669999999" blue="0.99203497169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="24"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="8.1605637720000006e-05" green="0.0" blue="0.00052623056989999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtnZoomIn:" destination="j8N-BQ-fFR" eventType="touchUpInside" id="iXF-5J-WA7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zZ-F3-Z4B">
+                                <rect key="frame" x="296" y="532" width="45" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.99599701169999999" green="0.99599379300000002" blue="0.99202793840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="24"/>
+                                <color key="tintColor" red="0.99599701169999999" green="0.99599379300000002" blue="0.99202793840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="8.1605637720000006e-05" green="0.0" blue="0.00052623056989999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtnZoomOut:" destination="j8N-BQ-fFR" eventType="touchUpInside" id="Mvb-4E-Wip"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1ri-RF-pX6" firstAttribute="top" secondItem="Cnx-E5-yD8" secondAttribute="top" id="3Rn-eV-ave"/>
+                            <constraint firstItem="1ri-RF-pX6" firstAttribute="leading" secondItem="DWl-by-u0a" secondAttribute="leading" id="bFW-cg-uem"/>
+                            <constraint firstItem="1ri-RF-pX6" firstAttribute="trailing" secondItem="DWl-by-u0a" secondAttribute="trailing" id="e6Q-Ak-RHY"/>
+                            <constraint firstItem="1ri-RF-pX6" firstAttribute="bottom" secondItem="DWl-by-u0a" secondAttribute="bottom" id="kTK-e4-85V"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DWl-by-u0a"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nwh-b3-hdn">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="ddo-b5-wcZ">
+                            <connections>
+                                <action selector="searchButton:" destination="j8N-BQ-fFR" id="KMg-Cf-CEx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="BtnTrans" destination="GXl-x7-chq" id="Gbb-Hq-fcl"/>
+                        <outlet property="BtnWalk" destination="wZw-h4-fWf" id="7zo-Gp-i8Y"/>
+                        <outlet property="FAB" destination="QXT-YZ-gt8" id="Keu-bD-TEA"/>
+                        <outlet property="mapView" destination="1ri-RF-pX6" id="5PD-m8-A4b"/>
+                        <outlet property="stepperZoom" destination="AY5-cJ-dVS" id="zA0-39-Q4m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C1G-ND-F1l" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768.79999999999995" y="194.75262368815595"/>
+        </scene>
+    </scenes>
+</document>

@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84D2243A24964FB600ACC8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2243924964FB600ACC8E4 /* AppDelegate.swift */; };
-		84D2243C24964FB600ACC8E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2243B24964FB600ACC8E4 /* ViewController.swift */; };
-		84D2243F24964FB600ACC8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D2243D24964FB600ACC8E4 /* Main.storyboard */; };
-		84D2244124964FB600ACC8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D2244024964FB600ACC8E4 /* Assets.xcassets */; };
-		84D2244424964FB600ACC8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D2244224964FB600ACC8E4 /* LaunchScreen.storyboard */; };
+		84C19A6E249832B8009B3A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C19A6D249832B8009B3A48 /* AppDelegate.swift */; };
+		84C19A70249832B8009B3A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C19A6F249832B8009B3A48 /* ViewController.swift */; };
+		84C19A73249832B8009B3A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C19A71249832B8009B3A48 /* Main.storyboard */; };
+		84C19A75249832B8009B3A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C19A74249832B8009B3A48 /* Assets.xcassets */; };
+		84C19A78249832B8009B3A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C19A76249832B8009B3A48 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84D2243624964FB600ACC8E4 /* FindMyWay_Vidya_778642.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyWay_Vidya_778642.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84D2243924964FB600ACC8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84D2243B24964FB600ACC8E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84D2243E24964FB600ACC8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84D2244024964FB600ACC8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84D2244324964FB600ACC8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84D2244524964FB600ACC8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C19A6A249832B8009B3A48 /* FindMyWay_Assignment 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FindMyWay_Assignment 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C19A6D249832B8009B3A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C19A6F249832B8009B3A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C19A72249832B8009B3A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C19A74249832B8009B3A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C19A77249832B8009B3A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C19A79249832B8009B3A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84D2243324964FB600ACC8E4 /* Frameworks */ = {
+		84C19A67249832B8009B3A48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84D2242D24964FB600ACC8E4 = {
+		84C19A61249832B7009B3A48 = {
 			isa = PBXGroup;
 			children = (
-				84D2243824964FB600ACC8E4 /* FindMyWay */,
-				84D2243724964FB600ACC8E4 /* Products */,
+				84C19A6C249832B8009B3A48 /* FindMyWay_Assignment 1 */,
+				84C19A6B249832B8009B3A48 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		84D2243724964FB600ACC8E4 /* Products */ = {
+		84C19A6B249832B8009B3A48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84D2243624964FB600ACC8E4 /* FindMyWay_Vidya_778642.app */,
+				84C19A6A249832B8009B3A48 /* FindMyWay_Assignment 1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84D2243824964FB600ACC8E4 /* FindMyWay */ = {
+		84C19A6C249832B8009B3A48 /* FindMyWay_Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
-				84D2243924964FB600ACC8E4 /* AppDelegate.swift */,
-				84D2243B24964FB600ACC8E4 /* ViewController.swift */,
-				84D2243D24964FB600ACC8E4 /* Main.storyboard */,
-				84D2244024964FB600ACC8E4 /* Assets.xcassets */,
-				84D2244224964FB600ACC8E4 /* LaunchScreen.storyboard */,
-				84D2244524964FB600ACC8E4 /* Info.plist */,
+				84C19A6D249832B8009B3A48 /* AppDelegate.swift */,
+				84C19A6F249832B8009B3A48 /* ViewController.swift */,
+				84C19A71249832B8009B3A48 /* Main.storyboard */,
+				84C19A74249832B8009B3A48 /* Assets.xcassets */,
+				84C19A76249832B8009B3A48 /* LaunchScreen.storyboard */,
+				84C19A79249832B8009B3A48 /* Info.plist */,
 			);
-			path = FindMyWay;
+			path = "FindMyWay_Assignment 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84D2243524964FB600ACC8E4 /* FindMyWay */ = {
+		84C19A69249832B8009B3A48 /* FindMyWay_Assignment 1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84D2244824964FB600ACC8E4 /* Build configuration list for PBXNativeTarget "FindMyWay" */;
+			buildConfigurationList = 84C19A7C249832B8009B3A48 /* Build configuration list for PBXNativeTarget "FindMyWay_Assignment 1" */;
 			buildPhases = (
-				84D2243224964FB600ACC8E4 /* Sources */,
-				84D2243324964FB600ACC8E4 /* Frameworks */,
-				84D2243424964FB600ACC8E4 /* Resources */,
+				84C19A66249832B8009B3A48 /* Sources */,
+				84C19A67249832B8009B3A48 /* Frameworks */,
+				84C19A68249832B8009B3A48 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FindMyWay;
-			productName = FindMyWay;
-			productReference = 84D2243624964FB600ACC8E4 /* FindMyWay_Vidya_778642.app */;
+			name = "FindMyWay_Assignment 1";
+			productName = "FindMyWay_Assignment 1";
+			productReference = 84C19A6A249832B8009B3A48 /* FindMyWay_Assignment 1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84D2242E24964FB600ACC8E4 /* Project object */ = {
+		84C19A62249832B7009B3A48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = IbsanjU;
+				ORGANIZATIONNAME = vidya;
 				TargetAttributes = {
-					84D2243524964FB600ACC8E4 = {
+					84C19A69249832B8009B3A48 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 84D2243124964FB600ACC8E4 /* Build configuration list for PBXProject "FindMyWay" */;
+			buildConfigurationList = 84C19A65249832B7009B3A48 /* Build configuration list for PBXProject "FindMyWay_Assignment 1" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 84D2242D24964FB600ACC8E4;
-			productRefGroup = 84D2243724964FB600ACC8E4 /* Products */;
+			mainGroup = 84C19A61249832B7009B3A48;
+			productRefGroup = 84C19A6B249832B8009B3A48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84D2243524964FB600ACC8E4 /* FindMyWay */,
+				84C19A69249832B8009B3A48 /* FindMyWay_Assignment 1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84D2243424964FB600ACC8E4 /* Resources */ = {
+		84C19A68249832B8009B3A48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D2244424964FB600ACC8E4 /* LaunchScreen.storyboard in Resources */,
-				84D2244124964FB600ACC8E4 /* Assets.xcassets in Resources */,
-				84D2243F24964FB600ACC8E4 /* Main.storyboard in Resources */,
+				84C19A78249832B8009B3A48 /* LaunchScreen.storyboard in Resources */,
+				84C19A75249832B8009B3A48 /* Assets.xcassets in Resources */,
+				84C19A73249832B8009B3A48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84D2243224964FB600ACC8E4 /* Sources */ = {
+		84C19A66249832B8009B3A48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D2243C24964FB600ACC8E4 /* ViewController.swift in Sources */,
-				84D2243A24964FB600ACC8E4 /* AppDelegate.swift in Sources */,
+				84C19A70249832B8009B3A48 /* ViewController.swift in Sources */,
+				84C19A6E249832B8009B3A48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84D2243D24964FB600ACC8E4 /* Main.storyboard */ = {
+		84C19A71249832B8009B3A48 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84D2243E24964FB600ACC8E4 /* Base */,
+				84C19A72249832B8009B3A48 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		84D2244224964FB600ACC8E4 /* LaunchScreen.storyboard */ = {
+		84C19A76249832B8009B3A48 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84D2244324964FB600ACC8E4 /* Base */,
+				84C19A77249832B8009B3A48 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		84D2244624964FB600ACC8E4 /* Debug */ = {
+		84C19A7A249832B8009B3A48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		84D2244724964FB600ACC8E4 /* Release */ = {
+		84C19A7B249832B8009B3A48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,33 +270,29 @@
 			};
 			name = Release;
 		};
-		84D2244924964FB600ACC8E4 /* Debug */ = {
+		84C19A7D249832B8009B3A48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J7V42XK74N;
-				INFOPLIST_FILE = FindMyWay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = "FindMyWay_Assignment 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vidya.FindMyWay;
-				PRODUCT_NAME = FindMyWay_Vidya_778642;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vidya.FindMyWay-Assignment-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		84D2244A24964FB600ACC8E4 /* Release */ = {
+		84C19A7E249832B8009B3A48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RFVLV349RR;
-				INFOPLIST_FILE = FindMyWay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = "FindMyWay_Assignment 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vidya.FindMyWay;
-				PRODUCT_NAME = FindMyWay_Vidya_778642;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vidya.FindMyWay-Assignment-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,25 +301,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84D2243124964FB600ACC8E4 /* Build configuration list for PBXProject "FindMyWay" */ = {
+		84C19A65249832B7009B3A48 /* Build configuration list for PBXProject "FindMyWay_Assignment 1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84D2244624964FB600ACC8E4 /* Debug */,
-				84D2244724964FB600ACC8E4 /* Release */,
+				84C19A7A249832B8009B3A48 /* Debug */,
+				84C19A7B249832B8009B3A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84D2244824964FB600ACC8E4 /* Build configuration list for PBXNativeTarget "FindMyWay" */ = {
+		84C19A7C249832B8009B3A48 /* Build configuration list for PBXNativeTarget "FindMyWay_Assignment 1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84D2244924964FB600ACC8E4 /* Debug */,
-				84D2244A24964FB600ACC8E4 /* Release */,
+				84C19A7D249832B8009B3A48 /* Debug */,
+				84C19A7E249832B8009B3A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84D2242E24964FB600ACC8E4 /* Project object */;
+	rootObject = 84C19A62249832B7009B3A48 /* Project object */;
 }
